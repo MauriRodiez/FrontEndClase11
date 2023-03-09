@@ -1,0 +1,36 @@
+/* Generales */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+
+/* Header */
+
+.banner-top{
+    background-color: #222;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+}
+
+.top-menu{
+    color: #f3f3f3;
+    font-size: 16px;
+    font-weight: lighter;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 28px;
+    width: 400px;
+}
