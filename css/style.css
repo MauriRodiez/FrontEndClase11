@@ -16,21 +16,116 @@ body{
 /* Header */
 
 .banner-top{
+    align-items: center;
     background-color: #222;
     display: flex;
     height: 100px;
     justify-content: space-between;
-    padding: 10px;
+    padding: 15px 25px;
     width: 100%;
 }
 
 .top-menu{
+    align-items: center;
     color: #f3f3f3;
     font-size: 16px;
     font-weight: lighter;
     display: flex;
+    height: 80px;
     justify-content: space-evenly;
     list-style-type: none;
-    margin: 28px;
     width: 400px;
+} 
+
+.btn-menu{
+    color: #E5E5E5;
+    text-decoration: none;
+}
+
+.btn-menu:hover{
+    color: #f00;
+}
+
+/* Main */
+
+.articulos{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.delivery{
+    background-image: url(../img/Delivery.png);
+    background-size: cover;
+    height: 350px;
+    width: 490px;
+}
+
+.titulo-delivery{
+    color: #FC200C;
+    font-weight: bold;
+    margin-left: 22px;
+    margin-top: 23px;
+}
+
+.resaltado{
+    color: #fff;
+    font-weight: bold;
+}
+
+.podio{
+    align-items: center;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
+    margin-left: 4px;
+    width: 490px;
+}
+
+.titulo-pizzas{
+    color: #FC200C;
+    font-weight: bold;
+    margin-top: 23px;
+}
+
+.contenedor-noticia{
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-evenly;
+    height: 250px;
+    width: 385px;
+}
+
+.titulo-lista{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.lista-pizzas{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.ingredientes{
+    margin-top: 20px;
+}
+
+/* Footer */
+
+.pie-de-pagina{
+    align-items: center;
+    background-color: #222;
+    display: flex;
+    height: 150px;
+    justify-content: space-between;
+    padding: 15px 25px;
+    width: 100%;
+}
+
+.menu-bottom{
+    list-style-type: none;
+    line-height: 25px;
 }
